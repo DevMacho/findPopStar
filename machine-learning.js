@@ -93,6 +93,7 @@
                 case "케이티 페리":
                     celebrity.innerText = '당신은 케이티 페리와\n ' + prediction[0].probability.toFixed(2)*100 + '%로 가장 닮았습니다!';
                     description.innerHTML = "<a target='_blank' href='https://www.youtube.com/user/KatyPerryMusic'>케이티 페리 알아보기</a><br><p>완벽한 목소리의 소유자, 케이티 페리입니다!<br>엄청난 음색을 가진 세계적인 아티스트입니다!";
+                    break;
                 case "샘 스미스":
                     celebrity.innerText = '당신은 샘 스미스와\n ' + prediction[0].probability.toFixed(2)*100 + '%로 가장 닮았습니다!';
                     description.innerHTML = "<a target='_blank' href='https://www.youtube.com/user/samsmithworld'>샘 스미스 알아보기</a><br><p>완벽한 목소리의 소유자, 샘 스미스입니다!<br>여심을 사로잡는 엄청난 음색으로 엄청난 인기를 누리고 있는 아티스트입니다!";
