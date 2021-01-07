@@ -3,6 +3,7 @@ body {
     background-color: #eeeeee;
     margin: 0;
     width: 100%;
+    height: 100%;
   }
 
   .file-upload {
@@ -233,7 +234,7 @@ a{
   box-shadow: 0 4px 6px rgba(30, 30, 59, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   padding: 8px 0px;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 200px;
 }
 
 .banner h3,.banner h3 a{
@@ -247,3 +248,4 @@ a{
   width: 50px;
   margin-right: 10px;
 }
+
