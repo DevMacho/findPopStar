@@ -125,7 +125,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
@@ -249,3 +248,122 @@ a{
   margin-right: 10px;
 }
 
+@media only screen and (max-width : 375px) {
+  .file-upload{
+    width: 290px;
+    margin: 0 auto;
+  }
+  #label-container{
+    margin: 0;
+  }
+  span{
+    width: 100%;
+  }
+  .logo{
+    width: 30px;
+  }
+  .title_one{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+  .file-upload{
+    width: 240px;
+    margin: 0 auto;
+  }
+  #label-container{
+    margin: 0;
+  }
+  span{
+    width: 100%;
+  }
+  .logo{
+    width: 30px;
+  }
+  .title_one{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  .title_two{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  .file-upload{
+    width: 240px;
+    margin: 0 auto;
+  }
+  #label-container{
+    margin: 0;
+  }
+  span{
+    width: 100%;
+  }
+  .logo{
+    width: 30px;
+  }
+  .title_one{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  .title_two{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width : 414px) {
+  .file-upload{
+    width: 240px;
+    margin: 0 auto;
+  }
+  #label-container{
+    margin: 0;
+  }
+  span{
+    width: 100%;
+  }
+  .logo{
+    width: 30px;
+  }
+  .title_one{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  .title_two{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width : 280px) {
+  .file-upload{
+    width: 240px;
+    margin: 0 auto;
+    padding: 8px 12px;
+  }
+  #label-container{
+    margin: 0;
+  }
+  span{
+    width: 100%;
+  }
+  .logo{
+    width: 30px;
+  }
+  .title_one{
+    font-size: 16px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .title_two{
+    font-size: 13px;
+  }
+}
