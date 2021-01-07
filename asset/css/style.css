@@ -6,6 +6,14 @@ body {
     height: 100%;
   }
 
+  
+a{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
   .file-upload {
     background-color: #ffffff;
     width: 600px;
@@ -216,12 +224,6 @@ span{
   margin-top: 8px;
 }
 
-a{
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 0;
-}
 
 @media only screen and (max-width : 768px) {
   .file-upload{
@@ -292,7 +294,7 @@ a{
   .title_one{
     font-size: 18px;
   }
-  h1{
+  h1 a{
     font-size: 24px;
   }
   .title_two{
@@ -317,7 +319,7 @@ a{
   .title_one{
     font-size: 18px;
   }
-  h1{
+  h1 a{
     font-size: 24px;
   }
   .title_two{
@@ -342,7 +344,7 @@ a{
   .title_one{
     font-size: 18px;
   }
-  h1{
+  h1 a{
     font-size: 24px;
   }
   .title_two{
@@ -368,7 +370,7 @@ a{
   .title_one{
     font-size: 16px;
   }
-  h1{
+  h1 a{
     font-size: 20px;
   }
   .title_two{
