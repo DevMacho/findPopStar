@@ -105,9 +105,9 @@
             if (prediction[i].probability.toFixed(2) > 0.1) {
                 barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + "%";
             } else if (prediction[i].probability.toFixed(2) >= 0.01) {
-                barWidth = "10%"
+                barWidth = "13%"
             } else {
-                barWidth = "5%"
+                barWidth = "10%"
             }
             var labelTitle;
             switch (prediction[i].className) {

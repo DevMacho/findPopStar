@@ -34,7 +34,8 @@ a{
     border-bottom: 4px solid #868686;
     transition: all .2s ease;
     outline: none;
-    font-weight: 700;
+    font-weight: 200;
+    font-family: 'Noto Sans KR', sans-serif;
   }
   
   .file-upload-btn:hover {
